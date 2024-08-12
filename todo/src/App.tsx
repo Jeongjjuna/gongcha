@@ -1,8 +1,10 @@
+import MainContainer from "./containers/MainContainer.tsx";
+
 function App() {
 
   return (
     <>
-      <div>시작합니다.</div>
+      <MainContainer />
     </>
   )
 }
