@@ -25,3 +25,9 @@ npm install react@latest next@latest react-dom@latest
 - 파일 시스템을 활용한 라우팅
     - 폴더는 경로를 url 경로를 나타내는데 사용
     - 해당 폴더 안에 page.tsx 가 있어야함.
+
+
+
+### not-found
+- layout.tsx, page.tsx 와 같이 특별히 정해진 파일 이름
+- app 하위에 not-found.tsx 정의로 구현
