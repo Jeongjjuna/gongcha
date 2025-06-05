@@ -53,3 +53,12 @@ npm install react@latest next@latest react-dom@latest
 - 그러나 javascript 를 활성화하면, React 가 끼어들어서 새로고침(reload) 하지 않고 navigate 해준다.
     - 즉, <a> 태그를 누르더라도 실제로는 <Link> 컴포넌트가 동작하게됨으로써 새로고침(reload)가 일어나지 않는다.
 - 위와 같이 렌더링 이후에 일어나는 과정을 hydration 이라고 한다.
+
+
+
+### "use client"
+- client 에서 hydrate 되는 components 는 "use client" 지시어를 맨 위에 가지고 있는 component 들 뿐이다.
+- 즉, use clinet 는 client 가 interractive 해야돼! hydration 가능해야해! 라고 말하는 것 과 같다.
+- backend 에서 redner 되고, frontend 에서 hydrate 및 interactive 됨 을 의미
+- 사용자는 use client 가 붙은 컴포넌트들에 대해서만 javascript 코드를 다운 받는다.(최적화가 된다)
+    - 서버 컴포넌트(server componet) 에 대한 javascript 코드를 다운로드할 필요가 없다.
