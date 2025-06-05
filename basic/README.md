@@ -66,3 +66,7 @@ npm install react@latest next@latest react-dom@latest
 ### layout
 - NextJS 는 URL을 통해 폴터를 찾고, 만약 레이아웃이 있다면 그 레이아웃을 그 밖에있는 레이아웃 안에 렌더링해준다.
     - 즉, nesting 형식으로 중첩 레이아웃이 형성된다.
+
+
+### metadata
+- (home) 처럼 폴터 이름에 괄호를 지정하여 URL에 영향받지 않도록 한다.
