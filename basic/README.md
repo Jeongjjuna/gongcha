@@ -31,3 +31,10 @@ npm install react@latest next@latest react-dom@latest
 ### not-found
 - layout.tsx, page.tsx 와 같이 특별히 정해진 파일 이름
 - app 하위에 not-found.tsx 정의로 구현
+
+
+### usePathname hook 사용
+- userPathname 단순히 가져와서 사용할 수 없다. 
+    - client component 에서만 사용가능하다고 경구문구가 뜬다.
+- 파일 상단에 아래 구문을 추가해야한다.
+    - "use client";
