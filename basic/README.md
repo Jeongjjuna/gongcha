@@ -73,3 +73,7 @@ npm install react@latest next@latest react-dom@latest
 - 페이지나 레이아웃에서만 메타데이터를 내보낼 수 있다.
 - 메타데이터는 서버 컴포넌트에만 있을 수 있다.
 - 문서를 보고 다양한 메타데이터 활용하면 된다.
+
+
+### dynamic routes
+- [id] 처럼 폴더 이름에 대문자를 지정한다.
