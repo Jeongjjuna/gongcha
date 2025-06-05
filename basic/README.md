@@ -62,3 +62,7 @@ npm install react@latest next@latest react-dom@latest
 - backend 에서 redner 되고, frontend 에서 hydrate 및 interactive 됨 을 의미
 - 사용자는 use client 가 붙은 컴포넌트들에 대해서만 javascript 코드를 다운 받는다.(최적화가 된다)
     - 서버 컴포넌트(server componet) 에 대한 javascript 코드를 다운로드할 필요가 없다.
+
+### layout
+- NextJS 는 URL을 통해 폴터를 찾고, 만약 레이아웃이 있다면 그 레이아웃을 그 밖에있는 레이아웃 안에 렌더링해준다.
+    - 즉, nesting 형식으로 중첩 레이아웃이 형성된다.
