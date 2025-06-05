@@ -70,3 +70,6 @@ npm install react@latest next@latest react-dom@latest
 
 ### metadata
 - (home) 처럼 폴터 이름에 괄호를 지정하여 URL에 영향받지 않도록 한다.
+- 페이지나 레이아웃에서만 메타데이터를 내보낼 수 있다.
+- 메타데이터는 서버 컴포넌트에만 있을 수 있다.
+- 문서를 보고 다양한 메타데이터 활용하면 된다.

@@ -1,3 +1,9 @@
+export const metadata = {
+    title: 'AboutUs',
+    description: 'AboutUs',
+}
+
+
 export default function AboutUs() {
     return (
         <div>
