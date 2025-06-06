@@ -82,3 +82,9 @@ npm install react@latest next@latest react-dom@latest
 ### suspense
 - 각 서버사이드 컴포넌트 요소마다 fetch 대기시간에 Loading 컴포넌를 보여줄 수 있다.
     - 즉, 각 컴포넌트마다 병렬로 fetch 데이터를 기다리고, 로딩되는 시점에 화면을 보여줄 수 있다.
+
+
+### error
+- error.tsx 파일명으로 만든다.
+    - use client 필요하다.
+    - 해당 파일 경로 안에서만 적용된다.
