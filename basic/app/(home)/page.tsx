@@ -1,6 +1,12 @@
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
 
+export const metadata = {
+    title: 'Home',
+    description: 'Home',
+}
+
+
 export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {

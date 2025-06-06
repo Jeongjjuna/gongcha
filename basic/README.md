@@ -88,3 +88,9 @@ npm install react@latest next@latest react-dom@latest
 - error.tsx 파일명으로 만든다.
     - use client 필요하다.
     - 해당 파일 경로 안에서만 적용된다.
+
+
+
+### generateMetadata 함수
+- 동적인 페이지에서 메타데이터를 가져올 수 있다.
+- export 로 선언해야한다.
