@@ -77,3 +77,8 @@ npm install react@latest next@latest react-dom@latest
 
 ### dynamic routes
 - [id] 처럼 폴더 이름에 대문자를 지정한다.
+
+
+### suspense
+- 각 서버사이드 컴포넌트 요소마다 fetch 대기시간에 Loading 컴포넌를 보여줄 수 있다.
+    - 즉, 각 컴포넌트마다 병렬로 fetch 데이터를 기다리고, 로딩되는 시점에 화면을 보여줄 수 있다.
