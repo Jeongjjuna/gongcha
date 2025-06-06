@@ -94,3 +94,9 @@ npm install react@latest next@latest react-dom@latest
 ### generateMetadata 함수
 - 동적인 페이지에서 메타데이터를 가져올 수 있다.
 - export 로 선언해야한다.
+
+
+### prefetch
+- <Link prefetch href={`/movies/${id}`}>{title}</Link>
+- 링크를 클릭하지 않아도, 화면안에 들어오면 미리 fetch 해온다.
+- DB 조회 등 성능 고려해서 사용할 것.
